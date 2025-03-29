@@ -21,6 +21,7 @@ export default function Mainpage() {
     marginBottom:"50px",
     
   }
+  
   return (
     <div className="main" style={appstyle}>
       <h1 style={h1style}>Color Picker</h1>

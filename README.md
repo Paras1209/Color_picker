@@ -1,17 +1,64 @@
-## Running React on Replit
+# Color Picker
 
-[React](https://reactjs.org/) is a popular JavaScript library for building user interfaces.
+Color Picker is a simple React application that allows users to select a color using a color picker tool and displays the selected color as the background of the application. The app is built using React and styled with CSS.
 
-[Vite](https://vitejs.dev/) is a blazing fast frontend build tool that includes features like Hot Module Reloading (HMR), optimized builds, and TypeScript support out of the box.
+## Features
 
-Using the two in conjunction is one of the fastest ways to build a web app.
+- Interactive color picker using the `react-color` library.
+- Displays the selected color code in real-time.
+- Fully responsive design.
 
-### Getting Started
-- Hit run
-- Edit [App.jsx](#src/App.jsx) and watch it live update!
+## Project Structure
 
-By default, Replit runs the `dev` script, but you can configure it by changing the `run` field in the [configuration file](#.replit). Here are the vite docs for [serving production websites](https://vitejs.dev/guide/build.html)
+```
+src/
+├── App.css          # Global styles
+├── App.jsx          # Main application component
+├── index.jsx        # Entry point for the React app
+├── Mainpage.css     # Styles for the Mainpage component
+├── Mainpage.jsx     # Main component with the color picker
+```
 
-### Typescript
+## Installation
 
-Just rename any file from `.jsx` to `.tsx`. You can also try our [TypeScript Template](https://replit.com/@replit/React-TypeScript)
+1. Clone the repository:
+    ```bash
+    git clone <repository-url>
+    cd Color_picker
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+    ```bash
+    npm run dev
+    ```
+
+4. Open the app in your browser at `http://localhost:5173`.
+
+## Usage
+
+- Use the color picker to select a color.
+- The background of the app will change to the selected color.
+- The current color code will be displayed below the color picker.
+
+## Technologies Used
+
+- React
+- Vite
+- `react-color` library
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgments
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [React Color](https://casesandberg.github.io/react-color/)
+
+Feel free to contribute or report issues!  
